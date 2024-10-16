@@ -1,65 +1,15 @@
 # Testowanie oprogramowania
 
-## Model kaskadowy:
-  Sprawdza się najlepiej przy dokładnie sprecyzowanych wymaganiach
-  
-  Etapy:
-  - (planowanie) - weryfikacja umów, analiza ryzyka, listy kontrolne
-  - określenie i analiza wymagań klienta - ocena wymagań, testowanie systemu
-  - projektowanie / stworzenie specyfikacji aplikacji - ocena projektu
-  - implementacja - ocena kodu źródłowego, przypadki testowe
-  - testowanie - 
-  - wdrożenie - test instalacji  
-  - (ekploatacja) - ocena nowych ograniczeń (pod obciążeniem)
-  - konserwacja - ocena anomalii i proponowanie zmian
-
-## Inne modele
-
-- ### Model przyrostowy:
-  Tworzenie aplikacji następuje fragmentami (przyrostami / modułami) wg. modelu kaskadowego
-  
-  Testowanie przeprowadzamy po przygotowaniu każdego modułu, a następnie integrujemy go z resztą systemu
-
-- ### Model V:
-  Równolegle trwają prace testowe i projektowe, prowadzone przez osobne zespoły
-
-  Połączenie etapu rozwoju oprogramowania z odpowiednią fazą testowania (
-
-- ### Model W (testowania):
-  Rozwinięcie modelu V
-  
-  Każda etap ma swoje osobne testy
-  
-  Testowanie trwa przez cały czas pracy
-
-- ### Model programowania odkrywczego:
-  Tworzenie kolejnych modyfikacji systemu, które po każdym etapie testowane są przez klienta
-
-- ### Model kontrukcji prototypów:
-  Testowanie prototypów przez klienta
-
-  Po akceptacji prototypu, na jego podstawie tworzy się finalny produkt
-
-- ### Model spiralny:
-  4 etapy cyklu życia oprogramowania wykonywane są cyklicznie:
-  - planowanie
-  - analiza ryzyka
-  - konstrukcja (wg. modelu kaskadowego)
-  - ocena klienta
-
-#### Prezentacja o modelach rozwoju oprogramowania:
-  http://mariusz.makuchowski.staff.iiar.pwr.wroc.pl/download/courses/komputerowe.wspomaganie.zarzadzania/wyk.slajdy/wyk09.cykl.zycia.pdf
-
 ## Testowanie
-- https://sjsi.org/slownik-terminow-testowych-istqb/
-- https://sjsi.org/ist-qb/do-pobrania/
-- https://academybugs.com
+
+## Co to testowanie?
+
 
 Testowanie ma na celu weryfikację oraz walidację oprogramowania.
 
 Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycznej) zespół
 
-  W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
+W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
 
 ### Weryfikacja
   Zgodność ze specyfikacją -> czy prawidłowo rozwijamy produkt?
@@ -103,15 +53,11 @@ Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycz
   - testowanie podsystemów - wykrycie błędów interfejsów, testowanie współdziałania kolekcji modułów
   - testowanie systemu - wykrycie nieprzewidzianych interakcji między podsystemami, sprawdzenie zgodności z wymaganiami funkcjonalnymi (co robi?) i niefunkcjonalnymi (jak robi?) aplikacji
   - testowanie odbiorcze - korzystając z zestawu danych od klienta; **przed przekazaniem**; błędy i niedopatrzenia w definicji wymagań
-
-### Testowanie czarnoskrzynkowe
-  Testowanie zgodności ze specyfikacją (wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz na podstawie diagramów UML: klas, stanów itp.)
     
-## Koszty naprawy błędów
+### Koszty naprawy błędów
   Im wcześniej wykryjemy błędy, tym tańsze i łatwiejsze do usunięcia one będą
 
-## Proces testowy
-  #### Etapy testowania:
+### Czynności (etapy) testowe:
   - planowanie
   - monitorowanie i nadzór (aż do ukończenia danego procesu testowego)
   - analiza (co testować?)
@@ -119,3 +65,62 @@ Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycz
   - implementacja (przygotowanie testów)
   - wykonywanie (właściwe testowanie)
   - ukończenie
+  - 
+### Przydatne linki
+- https://sjsi.org/slownik-terminow-testowych-istqb/
+- https://sjsi.org/ist-qb/do-pobrania/
+- https://academybugs.com
+
+<!-- ### Testowanie czarnoskrzynkowe
+  Testowanie zgodności ze specyfikacją (wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz na podstawie diagramów UML: klas, stanów itp.) -->
+
+
+## Modele rozwoju oprogramowania
+
+- ### Model kaskadowy:
+  Sprawdza się najlepiej przy dokładnie sprecyzowanych wymaganiach
+  
+  Etapy:
+  - (planowanie) - weryfikacja umów, analiza ryzyka, listy kontrolne
+  - określenie i analiza wymagań klienta - ocena wymagań, testowanie systemu
+  - projektowanie / stworzenie specyfikacji aplikacji - ocena projektu
+  - implementacja - ocena kodu źródłowego, przypadki testowe
+  - testowanie - 
+  - wdrożenie - test instalacji  
+  - (ekploatacja) - ocena nowych ograniczeń (pod obciążeniem)
+  - konserwacja - ocena anomalii i proponowanie zmian
+
+- ### Model przyrostowy:
+  Tworzenie aplikacji następuje fragmentami (przyrostami / modułami) wg. modelu kaskadowego
+  
+  Testowanie przeprowadzamy po przygotowaniu każdego modułu, a następnie integrujemy go z resztą systemu
+
+- ### Model V:
+  Równolegle trwają prace testowe i projektowe, prowadzone przez osobne zespoły
+
+  Połączenie etapu rozwoju oprogramowania z odpowiednią fazą testowania (
+
+- ### Model W (testowania):
+  Rozwinięcie modelu V
+  
+  Każda etap ma swoje osobne testy
+  
+  Testowanie trwa przez cały czas pracy
+
+- ### Model programowania odkrywczego:
+  Tworzenie kolejnych modyfikacji systemu, które po każdym etapie testowane są przez klienta
+
+- ### Model kontrukcji prototypów:
+  Testowanie prototypów przez klienta
+
+  Po akceptacji prototypu, na jego podstawie tworzy się finalny produkt
+
+- ### Model spiralny:
+  4 etapy cyklu życia oprogramowania wykonywane są cyklicznie:
+  - planowanie
+  - analiza ryzyka
+  - konstrukcja (wg. modelu kaskadowego)
+  - ocena klienta
+
+#### Prezentacja o modelach rozwoju oprogramowania:
+  http://mariusz.makuchowski.staff.iiar.pwr.wroc.pl/download/courses/komputerowe.wspomaganie.zarzadzania/wyk.slajdy/wyk09.cykl.zycia.pdf
