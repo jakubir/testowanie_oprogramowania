@@ -7,9 +7,9 @@
   Przetestowanie wszystkiego jest niemożliwe (lub możliwe tylko w prostych przypadkach), ponieważ jest to **kosztowne i czasochłonne**.
   
   Testowanie powinno być ukierunkowane na:
-  - analizę ryzyka - wrażliwe obszary
-  - odpowiednie techniki testowania - nie wszystkimi technikami trzeba zawsze testować
+  - analizę ryzyka - identyfikacja wrażliwych obszarów
   - priorytetyzację najważniejszych elementów - wybranie, które elementy można pominąć w procesie testowym
+  - odpowiednie techniki testowania - niekonieczne jest wykorzystanie wszystkich technik testowania
 
 ## 3. Wczesne testowanie oszczędza czas i pieniądze
   Należy testować od samego początku. Wcześniej wykryte błędy są tańsze do naprawienia.
@@ -26,4 +26,6 @@
   Podczas planowania testów kluczowa jest wiedza o produkcie.
 
 ## 7. Przekonanie o braku błędów jest błędem
-  Niemożliwym jest znalezienie (wyeliminowanie) wszystkich błędów, tak więc nie można zakładać ich całkowitego braku.
+  Zbudowanie systemu bez błędów nie zapewnia, że potrzeby klienta zostały zaspokojone
+
+  (Niemożliwym jest znalezienie (wyeliminowanie) wszystkich błędów, tak więc nie można zakładać ich całkowitego braku.)
