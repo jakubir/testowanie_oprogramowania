@@ -2,17 +2,26 @@
 
 ## Testowanie
 
-## Co to testowanie?
+### Co to testowanie?
+Testowanie oprogramowania to zbiór czynności mających na celu wykrycie defektów i dokonanie oceny
+jakości artefaktów (produktów procesu tworzenia oprogramowania) związanych z oprogramowaniem.
 
+### Cele testowania:
+- ocena jakości oprogramowania
+- zmniejszenie ryzyka awarii
+- weryfikacja oprogramowania
+- walidacja oprogramowania
+- sprawdzanie, czy produkt jest kompletny
 
-Testowanie ma na celu weryfikację oraz walidację oprogramowania.
+### Niezależność zespołu testowego
+Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycznej) zespół.
 
-Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycznej) zespół
+### W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
 
-W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
-
-### Weryfikacja
-  Zgodność ze specyfikacją -> czy prawidłowo rozwijamy produkt?
+- ### Weryfikacja
+  to sprawdzenie zgodności ze specyfikacją -> czy prawidłowo rozwijamy produkt?
+  
+  #### Cechy weryfikacji:
   - wczesna weryfikacja pomaga zminimalizować błędy i zmniejsza ryzyko
   - regularna weryfikacja pomaga przewidzieć przyszłe problemy oraz przyszły wygląd aplikacji
   - pomaga dostosować produkt do wymagań klienta
@@ -25,8 +34,10 @@ W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
 
   <!-- Testy weryfikacyjne są stosowane przed i podczas cyklu tworzenia aplikacji -->
   
-### Walidacja 
-  Zgodność z oczekiwaniami użytkownika -> czy opracowujemy produkt spełniający wymagania klienta? (czy produkt jest prawidłowy?)
+- ### Walidacja 
+  to sprawdzenie zgodności z oczekiwaniami użytkownika -> czy opracowujemy produkt spełniający wymagania klienta? (czy produkt jest prawidłowy?)
+  
+  #### Cechy walidacji:
   - błędy pominięte w czasie weryfikacji
   - eliminuje błędne założenia w specyfikacji
   - potwierdza zgodność z wymaganiami i oczekiwaniami klienta
@@ -44,10 +55,10 @@ W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
   -->
 
 ### Rodzaje testowania ze względu na stan uruchomienia aplikacji
-- testowanie dynamiczne - testowanie na uruchomionej aplikacji
-- testowanie statyczne - testowanie bez uruchamiania testowanego obiektu (np. przegląd samej dokumentacji / kodu)
+- testowanie dynamiczne - testowanie uruchomionej aplikacji
+- testowanie statyczne - testowanie bez uruchamiania testowanego obiektu (przegląd i analiza statyczna np. samej dokumentacji / kodu)
 
-### Pięć etapów procesu testowania
+### Poziomy testów (Pięć etapów procesu testowania)
   - testowanie jednostek - niezależne testowanie komponentów, tak by sprawdzić, czy każdy z nich działa poprawnie osobnie
   - testowanie modułów - testowanie powiązanych komponentów
   - testowanie podsystemów - wykrycie błędów interfejsów, testowanie współdziałania kolekcji modułów
@@ -65,7 +76,7 @@ W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
   - implementacja (przygotowanie testów)
   - wykonywanie (właściwe testowanie)
   - ukończenie
-  - 
+    
 ### Przydatne linki
 - https://sjsi.org/slownik-terminow-testowych-istqb/
 - https://sjsi.org/ist-qb/do-pobrania/
@@ -73,7 +84,6 @@ W każdym etapie procesu rozwoju odbywa się weryfikacja i walidacja
 
 <!-- ### Testowanie czarnoskrzynkowe
   Testowanie zgodności ze specyfikacją (wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz na podstawie diagramów UML: klas, stanów itp.) -->
-
 
 ## Modele rozwoju oprogramowania
 
