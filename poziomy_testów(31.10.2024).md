@@ -34,19 +34,17 @@ skupiają się na całości działania systemu
 - przedmiot: aplikacje, OS, inne systemy
 - cel: działanie całego systemu, zgodność wymagania funckjonanlne i niefunkcjonalne i specyfikacją
 - podstawa: specyfikacja, przyoadkui użcyia, user story
-- nietypowe zachowania sytemu
+- typowe defekty: nietypowe zachowania sytemu
 - środ. test.: testowe
 
 ## Testy akceptacyjne
 Całość działania systemu
-
-### Rodzaje:
-- ALFA (gotowy system)
-- BETA (w środ. produkcyjnym)
 
 ### Obszary testowe
 - przedmiot: aplikacje, OS, inne systemy
 - cel: walidacja i weryfikacja
 - podstawa: specyfikacja, procesy biznesowe, przyoadkui użcyia, user story, wymogi prawne
 - typowe defekty: niepoprawnie zaimplementowane reguły biznesowe, nieoczekiwane zachowania funkcjonalne, niezgodność z opisanmi w intrukcji, niedostateczna wydajność, słabe zabezpieczenia
-- środ. test.: testowe
+- środ. test.: 
+  - ALFA (gotowy system)
+  - BETA (w środ. produkcyjnym)
