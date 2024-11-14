@@ -131,6 +131,9 @@ Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycz
   - analiza ryzyka
   - konstrukcja (wg. modelu kaskadowego)
   - ocena klienta
+ 
+- ### Metoda delficka
+  z ekspertami
 
 #### Prezentacja o modelach rozwoju oprogramowania:
   http://mariusz.makuchowski.staff.iiar.pwr.wroc.pl/download/courses/komputerowe.wspomaganie.zarzadzania/wyk.slajdy/wyk09.cykl.zycia.pdf
