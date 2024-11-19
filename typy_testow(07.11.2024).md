@@ -1,122 +1,122 @@
 # Typy testów
+Typ testu dobieramy w zależności od tego, co chcemy przetestować.
 
-typ testu dobieramy w zależności od tego co chcemy oprzetestować
+## Testy potwierdzające:
+Potwierdzenie naprawienia defektów.
 
-testy potwierdzające (potwierdzenie naprawienia defektó)
-testy regresji (testy niezamieżonych zmian)
+## Testy regresji:
+Testowanie niezamierzonych zmian.
 
-## Testy funkcjonalne
-testy w systemie, sprawdzenie czy wszystkie zmiany są zgodne z naszymi wymaganiami
+## Testy automatyczne:
+Przyspieszają cykl przeprowadzania testowania i poprawiają jakość oprogramowania.
 
-- na podst. specyfikacji
+### Zastosowanie
+- Sprawdzenie, czy aplikacja działa 24/7.
+- Sprawdzenie, czy naprawione błędy nie występują.
+
+## Technika testowania białoskrzynkowego (strukturalnego):
+Wykonywane przez programistów (osoby techniczne), oparte na analizie kodu (wewnętrznej struktury) i doświadczeniu w technologii użytej w projekcie.
+
+## Technika testowania czarnoskrzynkowego:
+Wykonywane przez osoby nietechniczne, skupiają się na prędkości, intuicyjności i funkcjonalności aplikacji.
+
+## Testy funkcjonalne:
+Sprawdzenie, czy wszystkie zmiany są zgodne z wymaganiami - czy system robi to co powinien.
+
+#### Oparte na:
+- specyfikacji
 - historyjkach użytkownika
-- przypadkach użycia
+- i przypadkach użycia.
 
-## Testy automatyczne
-przyśpieszenie cyklu testowania i poprwaienie jakości oprogramowania
-
-- szybsze przeprowadzenie testów
-- sprawdzenie czy qaplikacja działa 24h/7
-- sprawdza czy naprawione błędy , dalej nie występują
-
-## Testy białoskrzynkowe
-testy oparte na strukturze, wykonywane przez programistów (doświadczonego w zakresie technologii użytej w projekcie), analiza kodu
-
-## testy czarnoskrzykowe
-nie przez osoby techniczne, pędkość, intuicyjność, testowanie funkcjonalności aplikacji
-
-- czasochłonne i kosztowne
-- mogą nie wykryć wszystkich błędów (ograniczenia dla różnych zestawów danych)
-
-## Testy niefunkcjonalne
-sprawdzenie własności niefunkcjonalności aplikacji
+## Testy niefunkcjonalne:
+Sprawdzenie własności niefunkcjonalnych aplikacji - jak aplikacja coś robi.
 
 ### Co testujemy?
-- wydajność
-- niezawodność
-- efektywność
-- przenaszalność - działanie na różnych urządzeniach
-- zdolność do wprowadzania zmian w prazyszłości
+- Wydajność.
+- Niezawodność.
+- Efektywność.
+- Przenaszalność - działanie na różnych urządzeniach.
+- Zdolność do wprowadzania zmian w przyszłości.
 
-### Testy wydajnościowe
-praca aplikacji pod obciążeniem
-- czas odpowiedzi
-- działanie przy różnej liczbie użytkowników
-- czas wykonywania działań
+### Testy wydajnościowe:
 
-#### Planowanie
-- cel
-- typy testów
-- metryki wydajnościowe - na jakim poziomie powinna znajdować się wydajność aplikacji (czas reakcji, przwepustowość, użytkownicy równocześni, liczba błędów)
-- scenariusze testowe
-- obiążenie
-- narzędzie do testów wydajnościowych
+#### Zakres:
+- Praca aplikacji pod obciążeniem.
+- Czas odpowiedzi.
+- Działanie przy różnej liczbie użytkowników.
+- Czas wykonywania działań.
 
-#### Przygotowanie
-- konfguracja
-- zgromadzenie danych
-- stworzenie środ. testowego
+#### Planowanie:
+- Cel.
+- Typy testów.
+- Metryki wydajnościowe - określenie poziomu wydajności aplikacji (czas reakcji, przwepustowość, użytkownicy równocześni, liczba błędów).
+- Scenariusze testowe.
+- Obciążenie.
+- Narzędzie do testów wydajnościowych.
 
-#### Analiza wyników
-interpretacja wyników
+#### Przygotowanie:
+- Konfiguracja.
+- Zgromadzenie danych.
+- Stworzenie środowiska testowego.
 
-### Typy:
-- obciążeniowe - realistyczny, rosnący poziom obciążenia, jak aplikacja sobie radzi
-- przeciążeniowe - szczytowe obciążenie przy którym aplikacja przestaje działać, jak aplikacja działa w systuacjach awaryjnych
-- skalowalności - wydajność aplikacji, jeśli wymagania się zmienią
-- skokowe - przy zróżnicowanym obciążeniu aplikacji (raz mało, raz dużo)
-- wytrzymałościowe - stabilnoć systemu w przedziale czasowym (wycieki pamięci, połączenia z bazą danych)
-- współbieżności - testowanie wykonywania wielu jednoczesnych działa na raz
-- przepustowości - określi ilu użytkowników (czynności) system jest w stanie maksymalnie obsłużyć
+#### Analiza wyników:
+- Interpretacja wyników.
 
-### Typowe błęy:
-- zbyt wolne odpowiedzi, przy każdym poziomie obciążenia
-- zbyt wolne odpowiedzi, przy poziomie obciążenia wzrastającym od śrd. do wys.
-- pogarszające się czasy odpowiedzi
-- nieadekwatna lub nierzetelna ilość ...
+### Typy testów wydajnościowych:
+- Obciążeniowe.
+- Przeciążeniowe.
+- Skalowalności.
+- Skokowe.
+- Wytrzymałościowe.
+- Współbieżności.
+- Przepustowości.
 
-### Narzędzia
-- JMeter - za darmo
-- LoadRunner
-- TestComplete
+##### Typowe błędy:
+- Zbyt wolne odpowiedzi przy każdym poziomie obciążenia.
+- Pogarszające się czasy odpowiedzi.
+- Nieadekwatna lub nierzetelna ilość...
 
-### Testy użyteczności
-łatwość użycia i spełnianie potrzeb użytkowników
+##### Narzędzia:
+- JMeter.
+- LoadRunner.
+- TestComplete.
 
-- zrozumiałość
-- użyteczność
-- atrakcyjność
-
-#### Typy testów
-- z użytkownikami
-- z ekspertami
-- z prototypami
-- z użytkownikami w naturalnym środowisku
-
-### Testy niezawodności
-działanie aplikaci przez określony czas w okreslonycg warunkach
-- czas działania bez awarii
-- odporność - reagowanie na awarie
-- odzyskiwanie - czas regeneracji po awarii
+### Testy użyteczności:
+- Łatwość użycia i spełnianie potrzeb użytkowników.
+- Zrozumiałość.
+- Użyteczność.
+- Atrakcyjność.
 
 #### Typy testów:
-- obciążeniowe
-- przeciążeniowe
-- odporności - reakcja na awarię
-- odzyskiwania - regeneracja po awarii
+- Z użytkownikami.
+- Z ekspertami.
+- Z prototypami.
+- Z użytkownikami w naturalnym środowisku.
+
+### Testy niezawodności:
+- Działanie aplikacji przez określony czas w określonych warunkach.
+- Czas działania bez awarii.
+- Odporność na awarie.
+- Odzyskiwanie po awarii.
+
+#### Typy testów:
+- Obciążeniowe.
+- Przeciążeniowe.
+- Odporności.
+- Odzyskiwania.
 
 ### Testy przenaszalności:
+- Testy instalowalności.
+- Testy zastępowalności.
+- Testy koegzystencji.
 
-- testy instalowalności:
-- zastępowalności
-- koegzystencji
+### Testy zdolności wprowadzania zmian w przyszłości:
+Sprawdzenie, czy aplikacja jest przygotowana do aktualizacji do nowszej wersji.
+- Architektura.
+- Kod.
+- Dokumentacja.
+- Proces.
 
-### Testy zdolności wporwadzania zmian w przyszłości:
-czy aplikacja jest przygotowana do aktualizacji do nowszej wersji
+<!-- Wszystkie user story z aplikacji Gosi:
+- Jako kto, oczekuję, że aplikacja będzie robić coś, po to aby... -->
 
-- architektury
-- kodu
-- dokumentacji
-- procesu - czy jest elastyczny (np. podzielony na moduły - małe kawałki)
-
-<!-- wsyzstkie user story z aplikacji gosi  usr story: jako kto, oczekuję, że aplikacja będzie robić coś, po to aby -->

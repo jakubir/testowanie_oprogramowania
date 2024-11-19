@@ -16,7 +16,7 @@ rozpisanie konkretnego przypadku i co w tym momencie może się stać
 - łatwe w zrozumieniu
 - indetyfikacja błędów logicznych
 - automatyzacja
-- k
+- kompleksowe pokrycie
 
 ## Przypadki użycia
 szczegółowy scenariusz interakcji użytkownika z systemem
@@ -32,8 +32,8 @@ szczegółowy scenariusz interakcji użytkownika z systemem
 - cel
 - określenie kroków
 - oczekiwane rezultaty
-- 
--
+- dane testowe
+- środowisko testowe
 
 ### Rodzaje scenariuszy:
 - pozytywny - prawidłowe warunki

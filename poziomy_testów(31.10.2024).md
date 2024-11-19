@@ -46,5 +46,5 @@ Całość działania systemu
 - podstawa: specyfikacja, procesy biznesowe, przyoadkui użcyia, user story, wymogi prawne
 - typowe defekty: niepoprawnie zaimplementowane reguły biznesowe, nieoczekiwane zachowania funkcjonalne, niezgodność z opisanmi w intrukcji, niedostateczna wydajność, słabe zabezpieczenia
 - środ. test.: 
-  - ALFA (w środ. produkcyjnym)
+  - ALFA (w środ. produkcyjnym / testowe)
   - BETA (w środ. konsumenta)
