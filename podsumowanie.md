@@ -53,15 +53,6 @@ Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycz
 ### Koszty naprawy błędów
   Im wcześniej wykryjemy błędy, tym tańsze i łatwiejsze do usunięcia one będą
 
-### Czynności (etapy) testowe:
-  - planowanie
-  - monitorowanie i nadzór (aż do ukończenia danego procesu testowego)
-  - analiza (co testować?)
-  - projektowanie (jak testować?)
-  - implementacja (przygotowanie testów)
-  - wykonywanie (właściwe testowanie)
-  - ukończenie
-
 ## Modele rozwoju oprogramowania
 
 - ### Model kaskadowy:
