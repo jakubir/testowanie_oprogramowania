@@ -170,7 +170,7 @@ Metryki mogą zawierać:
 ### Definicja wykonania 
 ma miejsce, gdy wszystkie warunki i krytyteria zostały spełnione
 
-Aby zapenić jakośc musimy spełnić definicję wykonania
+Aby zapenić jakość musimy spełnić definicję wykonania
 
 ### Kryteria akceptacji
 warunki, które musi spełnić oprogramowanie, aby zostało zaakceptowane przez użytkownika
@@ -180,10 +180,9 @@ warunki, które musi spełnić oprogramowanie, aby zostało zaakceptowane przez 
 Ustalenie co należy testować
 
 ### Czynności:
-- Przeanalizowanie materiałów potrzebnych do testów.
+- Przeanalizowanie wszystkich materiałów, związanych z wymaganiami dot. aplikacji.
 - Sprawdzenie, czy elementy do testowania są łatwe do przetestowania i wykrycie problemów, które mogą utrudniać testowanie.
-- Określenie, jakie cechy systemu będą testowane.
-- Ustalenie, elementów do przetestowania
+- Określenie, jakie cechy systemu będą testowane (co będzie testowane).
 
 ## Projektowanie testów
 
