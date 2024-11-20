@@ -49,13 +49,6 @@ Testowanie powinno być przeprowadzane przez niezależny (od kadry programistycz
 ### Rodzaje testowania ze względu na stan uruchomienia aplikacji
 - testowanie dynamiczne - testowanie uruchomionej aplikacji
 - testowanie statyczne - testowanie bez uruchamiania testowanego obiektu (przegląd i analiza statyczna np. samej dokumentacji / kodu)
-
-### Poziomy testów (Pięć etapów procesu testowania)
-  - testowanie jednostek - niezależne testowanie komponentów, tak by sprawdzić, czy każdy z nich działa poprawnie osobnie
-  - testowanie modułów - testowanie powiązanych komponentów
-  - testowanie podsystemów - wykrycie błędów interfejsów, testowanie współdziałania kolekcji modułów
-  - testowanie systemu - wykrycie nieprzewidzianych interakcji między podsystemami, sprawdzenie zgodności z wymaganiami funkcjonalnymi (co robi?) i niefunkcjonalnymi (jak robi?) aplikacji
-  - testowanie odbiorcze - korzystając z zestawu danych od klienta; **przed przekazaniem**; błędy i niedopatrzenia w definicji wymagań
     
 ### Koszty naprawy błędów
   Im wcześniej wykryjemy błędy, tym tańsze i łatwiejsze do usunięcia one będą
