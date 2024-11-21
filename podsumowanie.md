@@ -295,7 +295,6 @@ Sprawdzenie własności niefunkcjonalnych aplikacji - jak aplikacja coś robi.
 - Wydajność.
 - Niezawodność.
 - Użyteczność.
-- Efektywność - optymalne wykorzystanie zasobów.
 - Przenaszalność - działanie na różnych urządzeniach.
 - Zdolność do wprowadzania zmian w przyszłości.
 
@@ -423,7 +422,7 @@ specyfikacja danych wejściowych, warunków wykonania, procedury testowej oraz o
  - wczesne identyfikacaj ryzyka
  - lepsze zrozumienie błędów
  - poprawa jakości oprogramonia
- - ułatnienie komunikacji między zewspołem programistycznym a testowym
+ - ułatnienie komunikacji między zespołem programistycznym a testowym
 
 ### Ważne aspekty testowania przy przypadkach użycia:
 - interfejs użytkownika (ui intuicyjny i łatwy w użyciu; płynne działanie na róznych urządzeniach)
