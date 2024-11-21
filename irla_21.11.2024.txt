@@ -1,0 +1,51 @@
+1.
+- Testowanie wykrywa błędy, ale nie dowodzi ich braku
+- Testowanie gruntowne jest niemożliwe - ze względu na to jak skomplikowanym procesem jest testowanie oprogramowania, niemożliwe jest przetestowanie w 100% całego stworzonego systemu
+- Wczesne testowanie oszczędza czas i pieniądze - im wcześniej zaczynamy testowanie, tym wcześniej wykrywamy błędy, przez co jest je taniej usunąć (stworzony system nie jest jeszcze tak skomplikowany)
+- Kumulowanie się defektów - jeśli w jednym z modułów znajduje się błąd, to istnieje duża szansa, że będą tam kolejne (zgodnie z zasadą 20/80 - zazwyczaj 20% modułów powoduje 80% błędów)
+- Paradoks pestycydów
+- Testowanie zależy od kontekstu
+- Przekonanie o braku błędów jest błędem
+
+2. 
+- Planowanie
+- Monitorowanie i nadzór
+- Analiza
+- Projektowanie
+- Implementacja
+- Wykonanie
+- Zakończenie
+
+3. 
+Testy funkcjonalne polegają na sprawdzeniu funkcjonalności aplikacji, tego co aplikacja robi. Natomiast testy niefunkcjonalne skupiają się na sprawdzeniu w jaki sposób aplikacja realizuje te zadania, jak w tym czasie się zachowuje.
+
+4. 
+Testy akceptacyjne mają na celu ostateczne potwierdzenie, że aplikacja działa w poprawny, oczekiwany sposób, zgodny z wymaganiami funkcjonalnymi i niefunkcjonalnymi oraz oczekiwaniami użytkownika, a także czy jest zgodna z panującymi normami prawnymi i czy spełnia wymogi bezpieczeństwa. Na tym etapie to przede wszystkim użytkownik sprawdza aplikację, czy to w miejscu produkcji tego oprogramowania (testy ALFA), czy to we własnym śrowisku (testy BETA). 
+
+5.
+Testy obciążeniowe mają sprawdzić jak aplikacja sprawdza się pod stałym, typowym obciążeniem. Natomiast testy przeciążeniowe, sprawdzają jak aplikacja zachowuje się w trakcie szczytowego obciążenia lub go przekraczającego.
+
+6.
+Kluczowe funkcjonalności:
+- logowanie do skrzynki mailowej 
+    - testy bezpieczeństwa
+    Testy bezpieczeństwa są najważniejsze przy tej funkcjonalności, ponieważ na szali leży prywatność korespondencji użytkowników. Należy sprawdzić czy nasza aplikacja uniemożliwia ataki na konta użytkownika, czy nie ma możliwości uzyskania nieautoryzowanego dostępu, który pozwoliłby na odczytywanie i wysyłanie wiadomości bez wiedzy użytkownika.
+    - testy przenaszalności
+    Użytkownik powinien mieć możliwość uzyskania dostępu do swojej poczty elektronicznej z różnych urządzeń, tak więc należy sprawdzić, czy może to zrobić z poziomu urządzenia mobilnego, jak i komputera osobistego, za pomocą przeglądarki internetowej oraz aplikacji natywnej.
+- wysyłanie maila 
+    - testy użyteczności
+    Przy wysyłaniu maila priorytetem powienien być przyjemny i łatwy w obsłudze interfejs użytkownika, który pozwoli na wygodne tworzenie wiadomości, które będzie obsługiwać m.in. funckje sprawdzania składni czy możliwości wyboru adresata z listy poprzednich
+    - testy odzyskiwania
+    Spisywana wiadomość powinna być zapisywana na bieżąco, tak aby po wystąpieniu awarii, użytkownik nie utracił swojego postępu.
+- odbieranie maila 
+    - testy obciążeniowe
+    Testy przeciążeniowe pozwolą sprawdzić jakie jest opóźnienie w otrzymaniu maila, w warunkach które zostały przewidziane typowe, z perpektywy użytkownika może być to bardzo ważne, aby wiadomości trafiały do niego jak najszybciej po ich wysłaniu.
+    - testy użyteczności
+    Przy odbieraniu maila ważne jest odpowiednie wyświetlanie otrzymanej treści, która może być wysłana w różnych formatach, np. HTML, który należy przetworzyć i wyświetlić w odpowiedni sposób.
+Pozostałe funkcjonalności:
+- rejestracja nowego użytkownika
+- filtrowanie spamu
+- sortowanie listy maili 
+- oznaczanie maili jako ważnych
+- usuwanie maila ze skrzynki
+- wylogowywanie się ze skrzynki mailowej
